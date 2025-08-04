@@ -13,3 +13,27 @@ if (vida >= 80){
 } else{
     console.log("Ayla está em estado crítico, recue!");
 }
+
+// Parte 2 -> Missão
+
+if (vida >= 50 && energia >= 50){
+    console.log("Ayla entra no calabouço");
+} else {
+    console.log("Ayla não pode seguir para o calabouço!");
+}
+
+// Parte 3 -> Nível
+if (xp >= 1000) {
+    nivel++;
+    console.log(`Ayla subio de nivel ${nivel}.`)
+} else {
+    console.log("Adquira mais xp! para poder subir de nível.")
+}
+
+// Parte 4 -> ouro
+
+if (ouro >= 300){
+    console.log("Ayla comprou a armadura mágica");
+} else {
+    console.log("Ayla não tem ouro suficiente.");
+}
